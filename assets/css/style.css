@@ -5,7 +5,7 @@
 
 }
 
-/* Navbar */
+/* Navbar styling */
 .navbar {
 
     display: flex;
@@ -28,7 +28,7 @@
 .navbar ul li {
 
     font-family: century;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 
 }
@@ -50,13 +50,13 @@
 
 }
 
-/* Home Section*/
+/* Home Section styling*/
 #home {
 
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 840px;
+    height: 830px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -103,7 +103,7 @@
 
 }
 
-/* About me section */
+/* About me section styling */
 #about {
 
     display: flex;
@@ -138,49 +138,68 @@
 
 #intro h2 {
 
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
 
 }
 
 #intro p {
 
-    font-size: 1rem;
+    font-size: 1.2rem;
     
 }
 
-/* Projects */
+/* Projects section styling starts */
 #projects {
 
     display:flex;
     flex-direction: column;
     color: white;
-    align-items: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.9)
 
-
 }
 
-.gallery {
-
-    display:flex;
-    flex-wrap: wrap;
+.row {
+    display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     box-sizing: border-box;
-
 }
 
-.gallery img {
-
-    width:360px;
-    height: 240px;
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
     margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
 
 }
 
-/*Contact Me  */
+.box p {
 
+    text-align: center;
+}
+
+.box-big {
+
+    height: 450px;
+    width: 720px;
+}
+
+.box img {
+
+    width: 80px;
+    height: 80px;
+
+}
+
+/* Contact Me section styling*/
 #contact {
 
     display: flex;
@@ -191,8 +210,25 @@
 
 }
 
-#contact p{
+#contact p {
 
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+
+}
+
+/* Footer styling */
+footer {
+
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px 35px;
+
+}
+
+footer h2 {
+
+    color: white;
     text-align: center;
 
 }

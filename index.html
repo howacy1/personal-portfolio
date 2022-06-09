@@ -2,16 +2,16 @@
 <html lang="en">
 
     <head>
-
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>Cy's Portfolio</title>
-
     </head>
 
     <body>
+        <!-- Top navigation bar -->
         <nav class="navbar">
+            <!-- list of links to each section -->
             <ul>
                 <li>
                     <a href="#home">Home</a>
@@ -27,7 +27,7 @@
                 </li>
             </ul>
         </nav>
-
+        <!-- Home image and text -->
         <section id="home">
             <div class="main">
                 <h1 class="headings">CY HOWARD</h1>
@@ -36,7 +36,7 @@
                 </p>
             </div>
         </section>
-
+        <!-- About me section -->
         <section id="about">
             <h1 class="headings">ABOUT ME</h1>
             <div id="aboutmepic">
@@ -44,29 +44,53 @@
                 <div id="intro">
                     <h2>Cy Howard</h2>
                     <p>
-                        My Name is Cy Howard and I am 22 years old. I currently work for Northwestern Mutual and have a background in finance and insurance. I was first introduced to coding in eigth grade 
+                        My name is Cy Howard and I am 22 years old. I currently work for Northwestern Mutual and have a background in finance and insurance. I was first introduced to coding in a high school class where we learned how to code in Visual Basic. 
+                        From there I took a few classes in HTML, CSS, and Python. My favorite parts about coding is that I learn more everyday and that there will always be more to learn.
                     </p>
                 </div>
             </div>
         </section>
-
+        <!-- projects section  -->
         <section id="projects">
             <h1 class="headings">PROJECTS</h1>
-            <div class="gallery">
-                <img src="./assets/images/runbuddy.jpg" alt="Picture of a man tying his running shoes, getting ready to run">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
-        </section>
 
+            <div class="row">
+                <!-- run buddy project -->
+                <div class="box box-big">
+                    <a href="https://howacy1.github.io/run-buddy/">
+                        <img src="./assets/images/running.png" alt="" />
+                    </a>
+                    <h1 class="headings">Run Buddy</h1>
+                    <p>Website that offers fitness training services. Built in HTML and CSS</p>
+                </div>
+                <!-- code refactoring project -->
+                <div class="box">
+                    <a href="https://howacy1.github.io/modulechallenge1/">
+                        <img src="./assets/images/code.jpg" alt="" />
+                    </a>
+                    <h1 class="headings">Code Refactoring</h1>
+                    <p>Website for marketing agency. Built in HTML and CSS.</p>
+                </div>
+                <!-- coming soon spaceholder for future projects -->
+                <div class="box">
+                    <a href="https://github.com/howacy1">
+                        <img src="./assets/images/soon.jpg" alt="" />
+                    </a>
+                    <h1 class="headings">Coming Soon</h1>
+                    <p>Keep a look out for new projects being added soon!</p>
+                </div>
+
+        </section>
+        <!-- contact me section -->
         <section id="contact">
             <h1 class="headings">CONTACT ME</h1>
-                <p>262-422-4357</p>
-                <p><a href="mailto:cyhoward517@gmail.com">Email Me</a></p>
-                <p><a href="https://github.com/howacy1" target="_blank">My GitHub</a></p>
+            <p>Phone number: 262-422-4357</p>
+            <p><a href="mailto:cyhoward517@gmail.com">Email Me</a></p>
+            <p><a href="https://github.com/howacy1" target="_blank">My GitHub</a></p>
         </section>
-        
+        <!-- footer -->
+        <footer>
+            <h2>Made by Cy Howard</h2>
+        </footer>
     </body>
     </html>
